@@ -5,10 +5,10 @@
 }
 .logo h1 {}
 .logo h1 a {
-    background-color:#616161; height:70px;
-    background-image:url(../images/1\ copy.jpg); 
-    background-size:400px 50px; background-repeat: no-repeat;
-    background-position: center 5px; display:block;
+    height:60px; background-color: #000;
+    background-image:url(../images/h1.logo.jpg);
+    background-size:100px 50px; background-repeat: no-repeat;
+    background-position: center; display:block;
 }
 
 /* -----------------------------banner ---------------------------------*/
@@ -38,58 +38,76 @@
 }
 /* -----------------------------introduce ---------------------------*/
 .introduce {
-    width:1200px; margin:0 auto; background-color: #616161;
-    
+    width:1200px; height:400px;
+    margin:0 auto; background-color: #000;
+    background-image: url(../images/m1__fp6vvi5agma2_large.jpg);
+    background-size:200px 200px; background-repeat:no-repeat;
+    background-position:left; 
 }
-.introduce p:last-child {
+.introduce p {
     color:#fff; font-size:1.25rem; line-height: 1.6;
-    height:200px; width:800px; background-color: #FCBFE0;
-    
+    height:200px; width:800px;
+    float:right; padding:110px;
 }
-.introduce p img {
+/* -----------------------------contents ---------------------------*/
+.contents .contents_title {
+    width:1200px; height:100px; margin:0 auto;
+    font-size:2rem; font-weight:700; text-align:center;
+    line-height:100px; 
+}
+.contents {height:2000px; background-color: yellow;}
+/* -----------------------------draw--- ---------------------------*/
+.contents .draw {
+    width:1200px; height:500px; margin:0 auto;
+    display:flex; flex-flow:row nowrap; 
+}
+.contents .draw .left {}
+.contents .draw .left p {}
+.contents .draw .left p img {width:50%;}
+.contents .draw .right {
+    background-color:#A528A2;
     width:50%;
 }
-.introduce:last-child {}
-/* -----------------------------contents ---------------------------*/
-h2 {}
-.contents {}
-/* -----------------------------contents same의 통합---------------------------*/
-.contents .same {}
-.contents .same p {}
-.contents .same p img {}
-.contents .same h2 {}
-.contents .same h2 a {}
-.contents .same:last-child {}
-/* -----------------------------draw--- ---------------------------*/
-.contents .draw {}
-.contents .draw p {}
-.contents .draw p img {}
-.contents .draw h2 {}
-.contents .draw h2 a {}
+.contents .draw .rigth h2 {
+    font-size:1.875rem;
+}
+.contents .draw .rigth h2 a {}
+.contents .draw .rigth h2 P {
+
+}
 .contents .draw:last-child {}
 /* -----------------------------write ---------------------------*/
-.contents .write {}
+.contents .write {width:1200px; height:500px; margin:0 auto;}
 .contents .write p {}
 .contents .write p img {}
 .contents .write h2 {}
 .contents .write h2 a {}
 .contents .write:last-child {}
 /* -----------------------------model ---------------------------*/
-.contents .model {}
+.contents .model {width:1200px; height:500px; margin:0 auto;}
 .contents .model p {}
-.contents .model p img {}
+.contents .model p img {width:50%;}
 .contents .model h2 {}
 .contents .model h2 a {}
 .contents .model:last-child {}
 /* -----------------------------design ---------------------------*/
-.contents .design {}
+.contents .design {width:1200px; height:500px; margin:0 auto;}
 .contents .design p {}
-.contents .design p img {}
+.contents .design p img {width:50%;}
 .contents .design p h2 {}
 .contents .design p h2 a {}
 .contents .design:last-child {}
 /* -----------------------------ipad ---------------------------*/
-.ipad {}
-.ipad h2 {}
+.ipad {
+    background-color: #A528A2;
+    width:1200px; height:1000px; margin:0 auto;
+    display:flex; flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.ipad h2 {
+    font-size:3rem; line-height: 1.5; font-weight:700;
+    background-color: yellow; padding:10px 0 0 5px;
+}
 .ipad p {}
-.ipad p img {}
+.ipad p img {width:100%;}
