@@ -1,95 +1,21 @@
-/* --------------------------------logo ---------------------------------*/
-.logo {
-    height:50px; width:1200px; margin:0 auto;
-    margin-bottom:50px;
-}
-.logo h1 {}
-.logo h1 a {
-    background-color:#616161; height:70px;
-    background-image:url(../images/1\ copy.jpg); 
-    background-size:400px 50px; background-repeat: no-repeat;
-    background-position: center 5px; display:block;
-}
-
-/* -----------------------------banner ---------------------------------*/
-.banner {
-    width:1200px; margin:0 auto;
-    position:relative; margin-bottom:50px;
-}
-.banner h2 {
-    width:400px;
-    float:right; font-size:2rem; font-weight: 700;
-    line-height: 1.5; text-align: center;
-    position:absolute; right:30px; top:30px;
-}
-.banner h2 span {
-    font-size:2rem; font-weight: 700;
-    line-height: 1.5; color:#FCBFE0;
-}
-.banner h2 em {
-    font-size:2rem; font-weight: 700;
-    line-height: 1.5; color:#A528A2;
-}
-.banner p {}
-.banner p img {width:100%;}
-/* -----------------------------video ---------------------------------*/
-.video {
-    width:1200px; margin:0 auto;
-}
-/* -----------------------------introduce ---------------------------*/
-.introduce {
-    width:1200px; margin:0 auto; background-color: #616161;
-    
-}
-.introduce p:last-child {
-    color:#fff; font-size:1.25rem; line-height: 1.6;
-    height:200px; width:800px; background-color: #FCBFE0;
-    
-}
-.introduce p img {
-    width:50%;
-}
-.introduce:last-child {}
-/* -----------------------------contents ---------------------------*/
-h2 {}
+.head {}
+.head header {}
+.head h1 header .logo {}
+.head h1 header .logo img {}
+.head a {}
+/* -------------------------------main---------------------------- */
+.main {}
+.main img {}
+.main .m1 {}
+.main .m1 img {}
+.main .m1 p {}
+.main iframe {}   /* youyube */
+/* -----------------------------contents------------------------------ */
 .contents {}
-/* -----------------------------contents same의 통합---------------------------*/
-.contents .same {}
-.contents .same p {}
-.contents .same p img {}
-.contents .same h2 {}
-.contents .same h2 a {}
-.contents .same:last-child {}
-/* -----------------------------draw--- ---------------------------*/
+.contents h2 {}
 .contents .draw {}
-.contents .draw p {}
-.contents .draw p img {}
-.contents .draw h2 {}
-.contents .draw h2 a {}
-.contents .draw:last-child {}
-/* -----------------------------write ---------------------------*/
-.contents .write {}
-.contents .write p {}
-.contents .write p img {}
-.contents .write h2 {}
-.contents .write h2 a {}
-.contents .write:last-child {}
-/* -----------------------------model ---------------------------*/
-.contents .model {}
-.contents .model p {}
-.contents .model p img {}
-.contents .model h2 {}
-.contents .model h2 a {}
-.contents .model:last-child {}
-/* -----------------------------design ---------------------------*/
-.contents .design {}
-.contents .design p {}
-.contents .design p img {}
-.contents .design p h2 {}
-.contents .design p h2 a {}
-.contents .design:last-child {}
-/* -----------------------------ipad ---------------------------*/
-.ipad {}
-.ipad h2 {}
-.ipad p {}
-.ipad p img {}
+.contents .draw .left {}
+.contents .draw .left img {}
+.contents .draw .right {}
+.contents .draw .right h2 {}
+.contents .draw .right p {}
