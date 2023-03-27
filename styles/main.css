@@ -1,28 +1,86 @@
-.head {}
-.head header {}
-.head h1 header .logo {}
-.head h1 header .logo img {}
-.head a {}
+.head { margin:0 auto;
+    width:1200px; height:60px; padding:10px;
+}
+.head header {
+    display:flex; flex-flow:row nowrap;
+    justify-content:space-between;
+    align-items: center;
+}
+.head header h1 {}
+.head header h1 a {}
+.head header a {}
 /* -------------------------------main---------------------------- */
-.main {}
+.main {background: #000;}
 .main img {}
-.main .m1 {}
-.main .m1 img {}
-.main .m1 p {}
-.main iframe {}   /* youtube */
+.main .m1 {
+    padding:100px 0 100px 250px;
+    display:flex; flex-flow:row nowrap;
+    justify-content: space-between;
+}
+.main .m1 img {background-image: cover;}
+.main .m1 p {
+    color:#fff;font-size:1.438rem; line-height: 1.6; 
+    padding:50px 200px 50px 50px;
+}
+/*  */
+iframe {width:100%;}   /* youtube */
 /* -----------------------------contents------------------------------ */
 .contents {}
-.contents h2 {}
+.contents .contents_t {background:pink; text-align: center; line-height:100px;
+    font-size:2rem; font-weight: 700;
+    height:100px; margin:100px 0;
+}
+.contents p img {}   /* 중간사진 */
+/* -----------------------contents - h2>a 공통------------------------ */
+.contents .same {
+    width:1500px; margin:0 auto; 
+    display:flex; flex-flow:row nowrap;
+    justify-content: space-between;
+    margin-bottom:20px;
+}
+.contents h2 {
+    margin-bottom:30px;
+}
+.contents h2 a {
+    font-size:2.188rem; font-weight: 700; 
+}
+.contents p {
+    font-size:1.563rem; line-height: 1.5;
+}
+/* ------------------------------draw ---------------------------------*/
 .contents .draw {}
 .contents .draw .left {}
-.contents .draw .left img {}
-.contents .draw .right {}
+.contents .draw .left img {width:100%; }
+.contents .draw .right {
+    padding:100px;
+}
 .contents .draw .right h2 {}
+.contents .draw .right h2 a {}
 .contents .draw .right p {}
-
-/* --------------------------------logo ---------------------------------*/
-.logo {}
-.logo h1 {}
-.logo h1 a {}
-
-/* -----------------------------banner ---------------------------------*/
+/* ------------------------------write--------------------------------- */
+.write {background: yellow;}
+.write .left {height:400px;  }
+.write .left h2 {padding-left:520px;}
+.write .left h2 a {}
+.write .left h2 p {}
+.write .right {}
+.write .right img {}
+/* -----------------------------model-------------------------------- */
+.model {}
+.model .left {}
+.model .left img {width:50%;}
+.model .right {}
+.model .right h2 {}
+.model .right p {}
+/* -----------------------------design--------------------------- */
+.design {}
+.design .left {}
+.design .left h2 {}
+.design .left p {}
+.design .rigth {}
+.design .rigth img {}
+/* ------------------------------ipad------------------------------ */
+.ipad {}
+.ipad h2 {}
+.ipad img {}
+/* -------------------------------footer--------------------------- */
